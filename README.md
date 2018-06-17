@@ -24,11 +24,24 @@ Management data such as accounts, password, firewall rules, server's IP and so o
 
 Install modules.
 
+### Client side
+
 ```sh
 yarn add react react-dom prop-types
+yarn add redux
+yarn add axios
 ```
 
-Only used developing.
+### Server side
+
+```sh
+yarn add express
+yarn add mongoose
+yarn add body-parser
+```
+
+### For only developing environment
+
 Babel is the transpiler that new ECMAScript (5 >) => ES5.
 Webpack is the bundler that combine multiple JS files to one file.
 Eslint is the greatest linter for JS.
