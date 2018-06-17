@@ -49,16 +49,17 @@ babel-eslint allows us to lint all valid Babel code with the ESLint.
 
 ```sh
 yarn add --dev @babel/core @babel/cli @babel/preset-env @babel/preset-react
-yarn add --dev babel-loader@8 style-loader css-loader url-loader file-loader
 yarn add --dev webpack webpack-cli webpack-dev-server
+yarn add --dev babel-loader@8 style-loader css-loader url-loader file-loader
 yarn add --dev eslint babel-eslint
 ```
 
 Install Airbnb eslint config.
-`npm info "eslint-config-airbnb@latest"` peerDependencies to list the peer dependencies and versions.
+`npm info "eslint-config-airbnb@latest" peerDependencies` to list the peer dependencies and versions.
 Then run
 
 ```sh
+npm info "eslint-config-airbnb@latest" peerDependencies
 yarn add --dev <dependency>@<version>
 # e.g.
 # yarn add --dev eslint-plugin-import@2.7.0 eslint-plugin-jsx-a11y@6.0.2 eslint-plugin-react@7.4.0
